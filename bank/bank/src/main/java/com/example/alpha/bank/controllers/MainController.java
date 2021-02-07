@@ -71,12 +71,14 @@ public class MainController {
         float yesterday = Float.parseFloat(str2_y);
         System.out.println("Вчера курс рубля к доллару был: " + yesterday);
 
+        return whichisbigger(today, yesterday);
+    }
+
+    public static int whichisbigger(float today, float yesterday) {
         if (today > yesterday)
             return 1;
-//            System.out.println("Hellooo");
         else
-            //System.out.println("theoo");
-        return 0;
+            return 0;
     }
 
     @GetMapping("/")
