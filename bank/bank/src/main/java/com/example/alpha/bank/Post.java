@@ -1,5 +1,12 @@
 package com.example.alpha.bank;
 
+/**
+ *  created by malevinsky
+ *  email: malevwork@gmail.com
+ *  telegram: @theos_deus
+ *  date: 06.02.2021
+ */
+
 import java.math.BigDecimal;
 import java.util.List;
 
